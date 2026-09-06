@@ -1,5 +1,5 @@
 // Point this at the running backend (see backend/README.md).
-export const API_BASE = "http://localhost:8000";
+export const API_BASE = "https://aerotwin-2lje.onrender.com";
 
 async function request(path, options) {
   const res = await fetch(`${API_BASE}${path}`, {
