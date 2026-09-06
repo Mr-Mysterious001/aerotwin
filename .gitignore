@@ -1,3 +1,4 @@
 backend/data/
-backend/models/
 frontend/node_modules/
+.venv/
+backend/__pycache__/
